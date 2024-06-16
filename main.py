@@ -44,23 +44,6 @@ def get_response(prompt):
 
 # Infinite chat loop
 def chat_with_llama3():
-    """
-    Starts an infinite chat loop with Llama-3.
-    The function welcomes the user and continuously prompts for input.
-    If the user types 'exit', the chat ends and a goodbye message is printed.
-    Otherwise, the user's input is passed to the `get_response` function,
-    which generates a response from Llama-3 using the text generation pipeline.
-    The generated response is then printed.
-
-    Parameters:
-    None
-
-    Returns:
-    None
-
-    Raises:
-    None
-    """
     print("Welcome to the Llama-3 chat! Type 'exit' to end the conversation.")
 
     while True:
